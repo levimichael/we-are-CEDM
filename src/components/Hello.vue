@@ -9,7 +9,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'we are CEDM'
+      msg: "hello"
     }
   }
 }

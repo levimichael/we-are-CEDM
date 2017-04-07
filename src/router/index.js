@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import Users from '@/components/Users'
+import Artists from '@/components/Artists'
 
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -13,9 +12,9 @@ export default new Router({
       component: Hello
     },
     {
-      path: '/users',
-      name: 'Users',
-      component: Users
+      path: '/artists',
+      name: 'Artists',
+      component: Artists
     }
   ]
 })
